@@ -1,0 +1,59 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif; /* Fonte Roboto */
+  background-color: #f3e8f0; /* Cor de fundo lilás suave */
+  color: #4b2c5c; /* Texto em lilás escuro para contraste */
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Centraliza o conteúdo verticalmente */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #6a3e9b; /* Cor lilás para o título */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.result {
+    width: 28vw;
+    height: 10vw;
+  margin: 15px 0;
+  padding: 20px;
+  border: 1px solid #d5a6d8; /* Bordas lilás suaves */
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */
+  transition: all 0.3s ease;
+}
+
+.result:hover {
+  transform: scale(1.05); /* Efeito de aumento suave ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Aumenta a sombra ao passar o mouse */
+}
+
+strong {
+  color: #6a3e9b; /* Cor lilás para o texto em negrito */
+}
+
+#result-function,
+#result-outside,
+#result-operations {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+a {
+  color: #6a3e9b; /* Links com cor lilás */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 
